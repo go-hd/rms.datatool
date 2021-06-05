@@ -1,0 +1,25 @@
+{
+  "name": "rms.datatool",
+  "version": "0.0.1",
+  "description": "Get report data from R-Karte with Puppeteer.",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "main": "index.js",
+  "repository": "https://github.com/go-hd/rms.datatool.git",
+  "author": "Yuto Kawamoto",
+  "license": "MIT",
+  "dependencies": {
+    "csv-parse": "^4.10.1",
+    "dateformat": "^3.0.3",
+    "iconv-lite": "^0.6.0",
+    "node-fetch": "^2.6.0",
+    "rms.login": "go-hd/rms.login"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "dotenv": "^8.2.0",
+    "mocha": "^8.0.1",
+    "puppeteer": "^4.0.1"
+  }
+}
